@@ -1,0 +1,22 @@
+{
+  "Categoties": [
+    {
+      "id": 1,
+      "CategoryName": "aa",
+      "vocabs": [
+        {
+          "id": 1,
+          "word": "asd",
+          "meaning": "asdasd",
+          "status": false
+        },
+        {
+          "id": 2,
+          "word": "aww",
+          "meaning": "www",
+          "status": false
+        }
+      ]
+    }
+  ]
+}
