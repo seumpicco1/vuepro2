@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "install-backend" :"cd PROJECT2-SEC1-MuMuekKungHungUnTunTomNueng && npm install ",
-    "backend" : "json-server --watch ./src/data/db.json --port 5000",
+    "backend" : "json-server --watch ./src/data/db.json",
     "server": "cd PROJECT2-SEC1-MuMuekKungHungUnTunTomNueng  && npm run backend",
     "frontend" : "cd PROJECT2-SEC1-MuMuekKungHungUnTunTomNueng && npm install",
     "build-client" :"cd PROJECT2-SEC1-MuMuekKungHungUnTunTomNueng && npm run build"
