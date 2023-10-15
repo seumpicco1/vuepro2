@@ -153,7 +153,7 @@ const  changPage=(event,value,i)=>{
 const deleteCategory =async (event)=>{
   let id = event.target.id
   try {
-    const res = await fetch(`http://localhost:5000/Categoties/${id}`, {
+    const res = await fetch(`https://backjason.onrender.com/Categoties/${id}`, {
       method: "DELETE",
       
     });
@@ -191,7 +191,7 @@ const AddCategory =async (event)=>{
   countId.value ++ 
     if(TemporaryName.value.length<15 && TemporaryGroupVocabs.value.length>1 && CategoryAll.value.every((x)=>x.CategoryName!==TemporaryName.value)){
       try {
-    const res = await fetch(`http://localhost:5000/Categoties/${id}`, {
+    const res = await fetch(`https://backjason.onrender.com/Categoties/${id}`, {
       method: "POST",
       headers: {
     "Content-Type": "application/json",
@@ -268,7 +268,7 @@ const modifyVocabInCategory =async(EditObj)=>{
 
 try {
     const res = await fetch(
-            `http://localhost:5000/Categoties/${EditObj.id}`,
+            `https://backjason.onrender.com/Categoties/${EditObj.id}`,
             {
                 method: 'PUT',
                 headers: {
