@@ -1,7 +1,7 @@
 const getCategories = async () => {
     try {
       // default method is get
-      const res = await fetch('http://localhost:5000/Categoties')
+      const res = await fetch('https://backjason.onrender.com/Categoties')
       // if(res.status === 201) จะเขียน หรือ ok = 200 ก็ได้
   
       if (res.ok) {
