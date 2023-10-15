@@ -4,10 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "install-backend" :"cd PROJECT2-SEC1-MuMuekKungHungUnTunTomNueng && npm install && npm i json-server ",
-    "backend" : "cd PROJECT2-SEC1-MuMuekKungHungUnTunTomNueng && node server.js",
-    "frontend" : "cd PROJECT2-SEC1-MuMuekKungHungUnTunTomNueng && npm install",
-    "build-client" :"cd PROJECT2-SEC1-MuMuekKungHungUnTunTomNueng && npm run build"
+    "install-clinet" :"cd PROJECT2-SEC1-MuMuekKungHungUnTunTomNueng && npm install",
+    "build-client" : "cd PROJECT2-SEC1-MuMuekKungHungUnTunTomNueng && npm run build",
+    "start-client": "cd frontendd && npm run dev"
 
 
   },
